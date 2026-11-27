@@ -1,5 +1,5 @@
 /* Offline-Cache: Dateien der App und Schriftarten werden beim ersten Aufruf gemerkt. */
-var CACHE = "mindmap-v1";
+var CACHE = "mindmap-v3";
 var FILES = ["./", "index.html", "manifest.webmanifest", "icon-180.png", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", function (e) {
